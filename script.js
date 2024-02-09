@@ -11,7 +11,7 @@ function increaseScore(){
 
 function makeBubble(){
 
-    for( var i = 1 ; i <=20 ; i++){
+    for( var i = 1 ; i <=30 ; i++){
         var rn = Math.floor(Math.random()*10);
         clutter += `<div class="bubble col-md-4 " style="width: 45px;">
         ${rn}
